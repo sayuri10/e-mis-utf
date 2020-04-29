@@ -1,0 +1,345 @@
+
+
+/* sX.0 -  Main Content */
+.main-content {
+	color: #666666;
+	right: 20px;
+	padding-top: 20px;
+	width: 585px;
+	padding-bottom: 20px;
+}
+
+div.main-content div.main-content {
+	
+}
+
+.main-content h1 {
+	color: #5890D1;
+	font-size: 1.9em;
+	font-family: Trebuchet MS;
+	border-bottom: 1px solid #cccccc;
+	margin: 0px 10px 0px 0px;
+}
+
+.main-content h2 {
+	color: #666666;
+	font-size: 1.3em;
+	font-weight: normal;
+	margin: 10px 10px 5px 0px;
+}
+
+.main-content p {
+	margin: 10px 10px 10px 0px;
+	line-height: 1.55em;
+}
+
+
+/* sX.0 - General Colors */
+.line-grey,.line-grey-tier {
+	border-top: 1px solid #A3A3A2;
+}
+
+.line-grey-tier {
+	padding-bottom: 25px;
+}
+
+.bottom {
+	height: 10px;
+}
+
+div.p10bottom {
+	padding-bottom: 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+table.grid {
+	background: #EEEEEE;
+}
+
+table.grid th {
+	background-color: #F4F4F4;
+}
+
+table.grid td {
+	background-color: #FFFFFF;
+}
+
+div.buttonSubmit {
+	position: relative;
+}
+
+div.buttonSubmit input,div.buttonSubmit span {
+	height: 36px;
+	position: relative;
+	background-image: url(images/button-submit.gif);
+	background-repeat: no-repeat;
+	background-position: right 0px;
+	float: left;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 0px 15px 2px 15px;
+	margin: 20px 0px 20px 0px;
+	border: 0px;
+	cursor: pointer;
+	z-index: 5;
+}
+
+div.buttonSubmit input {
+	width: auto;
+}
+
+div.buttonSubmit span {
+	width: 4px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-position: left -36px;
+	padding: 0px 0px 0px 0px;
+	z-index: 10;
+}
+
+body.safari div.buttonSubmit span {
+	display: none
+}
+
+div.buttonSubmitHover input {
+	background-position: right -72px;
+}
+
+div.buttonSubmitHover span {
+	background-position: left -108px;
+}
+
+a.demoLink {
+	padding: 1px 10px 0px 17px;
+	height: 24px;
+	background: url(images/bullet_triangle_blue.gif) no-repeat 0px 4px;
+	display: block;
+	float: left;
+}
+
+div.callout-tan a {
+	background: none;
+	color: #0653AB;
+	margin: auto;
+	display: block;
+}
+
+div.callout-tan a:hover {
+	background: none;
+	color: #0653AB;
+}
+
+label.error {
+	display: block;
+	color: red;
+	font-style: italic;
+	font-weight: normal;
+}
+
+input.error {
+	border: 2px solid red;
+}
+
+p.demoBlock {
+	border-bottom: 1px solid #DDDDDD;
+	padding-bottom: 10px;
+}
+
+div.left-nav-callout {
+	height: 200px;
+	width: 190px;
+	top: 55px;
+	left: 5px;
+	position: relative;
+	padding-left: 9px;
+	padding-top: 13px;
+}
+
+div.left-nav-callout img.png {
+	position: absolute;
+	z-index: 0;
+	top: 0px;
+	left: 0px;
+}
+
+div.left-nav-callout h6 {
+	font: bold 14px tahoma, geneva;
+	color: #333333;
+	height: 36px;
+	padding-left: 5px;
+	margin: 0px;
+	position: relative;
+	z-index: 10;
+}
+
+div.left-nav-callout a {
+	background: url(images/monitor24.gif) no-repeat 0px center;
+	padding: 5px 0px 5px 30px;
+	display: block;
+	font: bold 12px tahoma, geneva;
+	color: #336699;
+	margin-bottom: 5px;
+	position: relative;
+	z-index: 10;
+	width: 140px;
+}
+
+form table td {
+	padding: 5px;
+}
+
+form table input {
+	width: 200px;
+	padding: 3px;
+	margin: 0px;
+}
+
+textarea {
+	width: 400px
+}
+
+td.label {
+	width: 150px;
+}
+
+tr.required td.label {
+	font-weight: bold;
+	background: url(/images/forms/backRequiredGray.gif) no-repeat right
+		center;
+}
+
+div.subTableDiv {
+	width: 500px;
+}
+
+div.subTableDiv td.label {
+	width: 135px;
+}
+
+ul#homeBlog li div.description {
+	display: none;
+}
+
+td.field input.error, td.field select.error, tr.errorRow td.field input,tr.errorRow td.field select {
+	border: 2px solid red;
+	background-color: #FFFFD5;
+	margin: 0px;
+	color: red;
+}
+
+tr td.field div.formError {
+	display: none;
+	color: #FF0000;
+}
+
+tr.errorRow td.field div.formError {
+	display: block;
+	font-weight: normal;
+}
+
+div.error {
+	color: red;
+}
+
+div.error a {
+	color: #336699;
+	font-size: 12px;
+	text-decoration: underline
+}
+
+div.tooltip {
+	position: absolute;
+	left: 30px;
+	bottom: 0px;
+	display: none; /* in case javascript is disabled */
+	width: 170px;
+	background-color: #F4F1E9;
+	z-index: 100;
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+}
+
+div.offerbox {
+	width: 125px;
+	float: left;
+	position: relative;
+}
+
+div.offerbox h3 {
+	font: bold 17px tahoma, geneva;
+	color: #333333;
+	height: 55px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.offerbox h4 {
+	height: 100px;
+	font: normal 13px tahoma, geneva;
+	margin: 0px;
+}
+
+div.offerbox h5 {
+	font: bold 14px tahoma, geneva;
+	margin: 0px;
+	height: 55px;
+}
+
+div.offerbox h5 small {
+	float: left;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+div.offerbox div.learnmore {
+	padding-left: 25px;
+}
+
+div#marketoEditions {
+	background: url(images/buynowBack.gif) no-repeat;
+	width: 584px;
+	height: 376px;
+	float: left;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+div.offerHeader {
+	background: #0D8BBD;
+	position: absolute;
+	top: 20px;
+	width: 266px;
+	height: 34px;
+	border: 1px solid #e1e4e2;
+}
+
+div.offerHeader span {
+	font: 20px 'trebuchet ms';
+	color: #FFFFFF;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+div.offerHeader span.shadow {
+	font: 20px 'trebuchet ms';
+	color: #333333;
+	position: absolute;
+}
+
+div.offerbox div.buttonSubmit {
+	margin: 5px 0px 0px 10px;
+}
+
+div.footerAddress {
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+	color: #666666;
+	font-size: 11px;
+	display: none;
+}
